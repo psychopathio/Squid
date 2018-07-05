@@ -1,5 +1,5 @@
 # Squid
-This is to use squid with authentication without defining an ip range.
-This has been tested mainly on ubuntu 16.04 and have proved to be the best by far.
-
-source: https://www.server-world.info/en/note?os=Ubuntu_16.04&p=squid&f=3
+Both of the listed scripts are not mine and are posted here just for future reference.
+Thanks goes to the sources below.
+source of squid auth: https://www.server-world.info/en/note?os=Ubuntu_16.04&p=squid&f=3
+Source of squid.conf: https://wiki.alpinelinux.org/wiki/Setting_up_Explicit_Squid_Proxy
