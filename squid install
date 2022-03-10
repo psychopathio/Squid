@@ -1,0 +1,12 @@
+apt -y install squid apache2-utils 
+
+htpasswd -c /etc/squid/.htpasswd USER
+
+systemctl restart squid 
+
+
+in order for squid caching to work a director yhas to be made
+ mkdir /var/cache/squid 
+ 
+ changwe the direcotries permission to chmod 777
+ apply squid -z
